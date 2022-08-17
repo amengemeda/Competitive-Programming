@@ -6,7 +6,6 @@ class Solution {
      * @return String
      */
     function largestNumber($nums) {
-        $number=$nums[0];
         for($i=0; $i<(count($nums)-1); $i++){
          for($j=($i+1); $j<count($nums); $j++){
              if(strcmp($nums[$i].$nums[$j], $nums[$j].$nums[$i])<0){
