@@ -6,7 +6,7 @@ class Solution {
      * @param Integer $n
      * @return Integer
      */
-    function leastInterval($tasks, $n) {
+    function leastInterval($tasks, int$n) {
         $time=0;
         $countArray=array();
         for($i=0; $i<count($tasks); $i++){
@@ -23,7 +23,7 @@ class Solution {
             if(!$maxHeap->isEmpty()){
                 $count = $maxHeap->extract() - 1;
                 if($count){
-                    array_push($queue,[$count,($time+$n)]);
+                    array_push($queue,[$count,($time + $n)]);
                 }
             }
             if($queue && $queue[0][1]==$time){
