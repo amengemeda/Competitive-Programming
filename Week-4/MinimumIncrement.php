@@ -7,7 +7,7 @@ class Solution {
      */
     function minIncrementForUnique($nums) {
         sort($nums);
-            
+   
         $steps= 0; 
         for($i=1; $i<count($nums); $i++){
             $prev = $nums[$i-1];
