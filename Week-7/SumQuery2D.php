@@ -1,3 +1,4 @@
+<?php
 class NumMatrix {
     /**
      * @param Integer[][] $matrix
@@ -47,3 +48,5 @@ class NumMatrix {
  * $obj = NumMatrix($matrix);
  * $ret_1 = $obj->sumRegion($row1, $col1, $row2, $col2);
  */
+
+?>
